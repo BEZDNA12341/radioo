@@ -13,7 +13,7 @@ public class RadioServicee {
         return currentChannel;
     }
 
-    public void nextChannel(int i) {
+     public void nextChannel(int i) {
         if (currentChannel == maxChannel) {
             this.currentChannel = minChannel;
             return;
