@@ -22,7 +22,7 @@ class RadioServiceeTest {
     }
 
     @Test
-    public void prevChannel2() {
+    public void prevChannel12() {
         RadioServicee station = new RadioServicee();
         station.setCurrentChannel(1000);
         station.prevChannel();
