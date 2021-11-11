@@ -2,7 +2,7 @@ package ru.netology.radio;
 
 public class RadioServicee {
     private int currentChannel;
-    private int maxChannel = 9;
+    private int maxChannel =  9;
     private int minChannel = 0;
 
     private int currentVolume;
